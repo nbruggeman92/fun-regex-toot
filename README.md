@@ -1,2 +1,1 @@
-# fun-regex-toot
-regex tutorial gist!
+https://gist.github.com/nbruggeman92/903f29f4de39bd8fe113133e2a0f4a09
