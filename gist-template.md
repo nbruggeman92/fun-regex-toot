@@ -48,16 +48,24 @@ Parentheses are used to group parts of a regular expression together. This is us
 
 ### Bracket Expressions
 
-
+Bracket expressions in regular expressions are used to define a set of characters that can match a single character at a specific position in the text being searched. They allow you to specify a range or group of characters from which one character must be matched. An example of this in our regex would be `[\/\w \.-]`.
 
 ### Greedy and Lazy Match
 
+In regex, greedy matching tries to match as much text as possible while lazy matching tries to match as little text as possible while still allowing the overall pattern to match. In our example, the `*` is greedy because it is trying to match as much text as possible. This is important because it will use the entire path. We do not have any instances of lazy matching in our specific example.
+
 ### Boundaries
+
+Boundaries in regular expressions are important for making sure that matches occur at specific positions within the text and for defining the scope of the search. They help control where and how the pattern should match. Examples of these are `\n` and `\r` even though these are not used in our regex.
 
 ### Back-references
 
+Back-references in regular expressions (regex) are references to previously captured groups within the same regex pattern. They allow you to match repeated occurrences of the same text or to enforce consistency within a pattern. We do not have any instances of back-references in our regex example.
+
 ### Look-ahead and Look-behind
+
+Look-ahead and look-behind assertions are zero-width assertions in regular expressions that allow you to check for patterns without consuming characters in the string being matched. While they are powerful tools for creating complex regex patterns, we do not use them in our example.
 
 ## Author
 
-A short section about the author with a link to the author's GitHub profile (replace with your information and a link to your profile)
+This regex tutorial on URL matching is brought to you by Nick Bruggeman. As a current coding boot camp student that has struggled in different phases throughout my course, I wanted to create a tutorial that could assist in helping others understand the structure of a regular expression while also explaining the many different components of said regular expression. I hope this has helped and if you have any questions please reach out to me or view more of my projects at https://github.com/nbruggeman92. Thank you!
