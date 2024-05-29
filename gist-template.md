@@ -1,4 +1,4 @@
-# Title (replace with your title)
+# Regex Tutorial For URL Matching /^(https?:\/\/)?([\da-z\.-]+)\.([a-z\.]{2,6})([\/\w \.-]*)*\/?$/
 
 Regular expressions are powerful tools for pattern matching and the manipulation of text. Understanding how regex expressions work is important when defining search patterns. Once a search pattern is identified, tasks such as searching, validating, extracting, replacing, and formatting become possible.
 
@@ -24,9 +24,15 @@ In this tutorial, we will be exploring the regular expression /^(https?:\/\/)?([
 
 ### Anchors
 
+Anchors are regex components that assert something about the string or matching process. In our example `^` asserts the start of the string and makes sure that our URL starts at the very beginning. `$` also functions as an anchor but at the very end of our expression, signaling the end of our URL.
+
 ### Quantifiers
 
+Quantifiers in regular expressions specify the number of occurrences of a character or a group of characters that the pattern should match. In our example `?` makes the protocol optional. (`http://` or `https://`)
+
 ### OR Operator
+
+In regular expressions, the "or" operator allows you to specify alternatives within a pattern. It is represented by the `|` character. The "or" operator will match either the pattern on the right or the pattern on the left. We do not have the "or" operator in our specific regex example.
 
 ### Character Classes
 
