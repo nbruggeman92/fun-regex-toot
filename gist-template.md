@@ -36,11 +36,19 @@ In regular expressions, the "or" operator allows you to specify alternatives wit
 
 ### Character Classes
 
+Character classes provide a powerful way to specify patterns in regex, allowing you to match a wide range of characters with concise syntax. They are fundamental building blocks for creating complex regex patterns for text processing tasks. In our example, `[\da-z\.-]` matches any digit (`\d`), lowercase letter a-z (`a-z`), dot (`.`), or dash (`-`).
+
 ### Flags
+
+Flags in regular expressions are optional parameters that modify the behavior of the regex pattern matching. Flags provide additional control over how the pattern is applied to the text being searched or manipulated. In our case we do not have any flags, which usually are appended with a `/` after the closing delimiter.
 
 ### Grouping and Capturing
 
+Parentheses are used to group parts of a regular expression together. This is useful for applying quantifiers, alternation, and other regex operators to multiple characters or subpatterns as a single unit. We have several instances of this in our regex such as `(https?:\/\/)` which is allowing us to identify a specific part of our URL as a group.
+
 ### Bracket Expressions
+
+
 
 ### Greedy and Lazy Match
 
